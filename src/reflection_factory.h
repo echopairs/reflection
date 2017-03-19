@@ -39,7 +39,7 @@ public:
         auto item = maps_.find(type_name);
         if (item == maps_.end())
         {
-            return nullptr;
+            throw std::invalid_argument("the message key is not exist!");
         }
         return maps_[type_name]();
     }

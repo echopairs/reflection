@@ -8,7 +8,7 @@
 class Message
 {
 public:
-    virtual void show() = 0;
+    virtual std::string show() = 0;
 };
 
 #endif //REFLECTION_MESSAGE_H

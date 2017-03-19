@@ -16,9 +16,9 @@ public:
     {
 
     }
-    void show()
+    std::string show()
     {
-        std::cout << "I am Message1 " << std::endl;
+        return "Message1";
     }
 };
 
